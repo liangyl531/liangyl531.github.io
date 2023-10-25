@@ -1,0 +1,189 @@
+.page {
+  background-color: #f8ffea;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.header {
+  height: 68.448vw;
+}
+.space-y-36 > *:not(:first-child) {
+  margin-top: 9.16vw;
+}
+.section {
+  padding: 15.267vw 3.562vw 7.634vw;
+  background-color: #ffffff;
+  box-shadow: 0px 0.763vw 1.527vw #00000029;
+  border-bottom: solid 0.127vw #707070;
+}
+.image {
+  width: 8.651vw;
+  height: 8.651vw;
+}
+.pos {
+  position: absolute;
+  left: 3.435vw;
+  bottom: 6.997vw;
+}
+.text {
+  color: #000000;
+  font-size: 11.45vw;
+  font-family: HarmonyOSSansTC;
+  line-height: 8.906vw;
+}
+.image_2 {
+  width: 27.226vw;
+  height: 27.481vw;
+}
+.group {
+  padding: 10.687vw 0 72.01vw;
+  overflow-y: auto;
+}
+.text-wrapper {
+  padding: 7.634vw 0 10.178vw;
+  background-color: #ffffff;
+  box-shadow: 0px 0.254vw 1.527vw #00000029;
+}
+.font_1 {
+  font-size: 6.107vw;
+  font-family: HarmonyOSSansTC;
+  line-height: 4.58vw;
+  color: #000000;
+}
+.text-wrapper_2 {
+  padding: 8.651vw 0;
+  background-color: #ffffff;
+  box-shadow: 0px 0.254vw 1.527vw #00000029;
+}
+.text_2 {
+  line-height: 4.707vw;
+}
+.text-wrapper_3 {
+  padding: 8.142vw 0 7.634vw;
+  background-color: #ffffff;
+  box-shadow: 0px 0.254vw 1.527vw #00000029;
+}
+.text_3 {
+  line-height: 6.107vw;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+}
+
+body * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-baseline {
+  align-self: baseline;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.grow-0 {
+  flex-grow: 0;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.relative {
+  position: relative;
+}
